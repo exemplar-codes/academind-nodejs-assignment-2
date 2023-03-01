@@ -1,0 +1,20 @@
+{
+  "name": "academind-nodejs-assignment-2",
+  "version": "1.0.0",
+  "description": "Basic Express.js app that serves HTML, static files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unclassified-repos/academind-nodejs-assignment-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unclassified-repos/academind-nodejs-assignment-2/issues"
+  },
+  "homepage": "https://github.com/unclassified-repos/academind-nodejs-assignment-2#readme"
+}

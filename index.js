@@ -16,6 +16,8 @@ app.use(express.static(path.join(rootPath, "public")));
 app.get("/", (req, res) => {
   res.sendFile(path.join(rootPath, "views", "index.html"));
 });
+
+
 app.use("/sides", sidesRouter); // kept above, to prevent premature handling by mainRouter
 app.use("/main", mainRouter);
 // IMPORTANT: this is a callback, don't call it.

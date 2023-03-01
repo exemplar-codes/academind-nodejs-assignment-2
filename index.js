@@ -8,6 +8,8 @@ app.use(cors()); // ignore
 app.set("project-root-path", __dirname);
 const rootPath = app.get("project-root-path");
 
+app.use(express.static(path.join(rootPath, "public")));
+
 app.use((req, res, next) => {
   res.sendFile(path.join(rootPath, "views", "404.html"));
 });

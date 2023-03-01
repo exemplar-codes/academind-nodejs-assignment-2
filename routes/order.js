@@ -10,7 +10,7 @@ router.get("/", (req, res) => {
 });
 
 router.use(express.json());
-router.use(express.urlencoded());
+router.use(express.urlencoded({ extended: false }));
 
 router.post("/", (req, res) => {
   Object.keys(req.body).forEach((key) => {

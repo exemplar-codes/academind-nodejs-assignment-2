@@ -9,14 +9,4 @@ router.get("/", (req, res) => {
   );
 });
 
-router.use(express.json());
-router.use(express.urlencoded());
-
-router.post("/", (req, res) => {
-  res.status(200).json({
-    message: "Order for sides placed",
-    orderDetails: req.body,
-  });
-});
-
 module.exports = router;

@@ -16,3 +16,25 @@
 body {
   background-color: #161b22;
 }
+
+.grid-2-column {
+  display: grid;
+  grid-template-columns: 100px 50px;
+  column-gap: 50px;
+  row-gap: 15px;
+}
+
+.grid-2-column * {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.grid-2-column input {
+  width: 100px;
+  padding: 0;
+  color: black;
+}
+
+input {
+  color: black;
+}

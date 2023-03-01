@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Place order</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/">Home</a>
+      </nav>
+    </header>
+    <main style="margin-top: 20px" class="flex-row-100">
+      <form action="/order" method="POST">
+        <div class="grid-2-column">
+          <label for="burger">Burger </label>
+          <input min="0" max="5" maxlength="1" name="burger" type="number"/>
+          <label for="pizza"> Pizza</label>
+          <input min="0" max="5" maxlength="1" name="pizza" type="number"/>
+          <label for="fries"> Fries</label>
+          <input min="0" max="10" maxlength="1" name="fries" type="number"/>
+          <label for="lemonade"> Lemonades</label>
+          <input min="0" max="10" maxlength="1" name="lemonade" type="number"/>
+          <label for="coke">Cokes </label>
+          <input min="0" max="10" maxlength="1" name="coke" type="number"/>
+        </div>
+        <input type="submit" sty>
+      </form>
+    </main>
+  </body>
+</html>

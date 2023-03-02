@@ -29,4 +29,7 @@ app.use((req, res, next) => {
   res.status(404).sendFile(path.join(rootPath, "views", "404.html"));
 });
 
-app.listen(3000, () => console.log("Server started on port 3000"));
+const PORT_NUMBER = process.env.PORT || 3000;
+app.listen(PORT_NUMBER, () =>
+  console.log(`Server started on port ${PORT_NUMBER}`)
+);
